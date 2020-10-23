@@ -6,17 +6,9 @@ import vinyasa from '../Images/vinyasa.png'
 import bikram from '../Images/bikram.png'
 import kundalini from '../Images/kundalini.png'
 import iyengar from '../Images/iyengar.png'
-import yogaDoux from './YogaDoux.js'
-import yogaDyn from './YogaDyn.js'
-
 
 const Cours = () => (
   <p>
-      <div className="boutons">
-      <Button className="mr-5 mt-2 mb-3 px-5" variant="secondary">Yoga doux</Button>
-      <Button className="ml-5 mt-2 mb-3 px-5" variant="secondary">Yoga dynamique</Button>
-      </div>
-
     <Container className="vignettes" fluid >
    
 <CardDeck>
@@ -101,33 +93,3 @@ const Cours = () => (
 )
 
 export default Cours;
-
-
-
-// class Users extends Component {
-
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       name: 'Marie Dupont', 
-//       age: 30, 
-//       }
-//   }
-  
-//   render() {
-//     return (
-//       <div className="App">
-//         <div className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <h2>Yoga Time</h2>
-//         </div>
-//         <p className="App-intro">
-//           Bonjour {this.state.name}.
-//         </p>
-//         <p>Cette page expliquera les différents types de yoga.</p>       
-//       </div>
-//     );
-//   }
-// }
-
-//   export default Users;

@@ -21,7 +21,7 @@ class Header extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link className="mr-4"href="/">Accueil</Nav.Link>
-            <Nav.Link className="mr-4" href="/Components/Lessons">Cours</Nav.Link>
+            <Nav.Link className="mr-4" href="/Components/Toggle">Cours</Nav.Link>
             <Nav.Link className="mr-4" href="/Components/Planning">Planning</Nav.Link>
             <Nav.Link className="mr-4" href="/Components/Team">Equipe</Nav.Link>
             <Nav.Link className="mr-4" href="/Components/Price">Tarifs</Nav.Link>

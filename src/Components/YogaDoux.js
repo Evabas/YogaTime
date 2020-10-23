@@ -7,8 +7,6 @@ import iyengar from '../Images/iyengar.png'
 
 const YogaDoux = () => (
   <p>
-      <h2>Yoga Doux</h2>
-  
     <Container className="vignettes" fluid >
         <CardDeck>
 
