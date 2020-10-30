@@ -4,16 +4,16 @@ import './App.css';
 import Image1 from './Images/tapisMain.jpg'
 import hatha from './Images/hatha.jpg'
 import ashtanga from './Images/ashtanga.png'
-import Cours from './Components/Lessons'
-import Cours2 from './Components/Lessons2'
+import Lessons from './Components/Lessons'
 import YogaDoux from './Components/YogaDoux'
 import YogaDyn from './Components/YogaDyn'
 import Planning from './Components/Planning'
-import Equipe from './Components/Team'
-import Tarif from './Components/Price'
+import Team from './Components/Team'
+import Price from './Components/Price'
 import { Image, Container, Row, Col, Card} from 'react-bootstrap';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
+import Toggle from './Components/Toggle';
 
 const Home = () => (
   <div className="App">
@@ -42,7 +42,7 @@ const Home = () => (
   </Card.Body>
  
   <Card.Body>
-    <Card.Link className="lien" href="/Components/Lessons2">Cours</Card.Link>
+    <Card.Link className="lien" href="/Components/YogaDyn">Yoga Dynamique</Card.Link>
   </Card.Body>
 </Card>
 </Col>
@@ -74,13 +74,13 @@ class App extends Component {
         <div>
           <Header></Header>
           <Route exact path="/" component={Home}></Route>
-          <Route exact path="/Components/Lessons" component={Cours}></Route>
-          <Route exact path="/Components/Lessons2" component={Cours2}></Route>
+          <Route exact path="/Components/Lessons" component={Lessons}></Route>
+          <Route exact path="/Components/Toggle" component={Toggle}></Route>
           <Route exact path="/Components/YogaDoux" component={YogaDoux}></Route>
           <Route exact path="/Components/YogaDyn" component={YogaDyn}></Route>
           <Route exact path="/Components/Planning" component={Planning}></Route>
-          <Route exact path="/Components/Team" component={Equipe}></Route>
-          <Route exact path="/Components/Price" component={Tarif}></Route>
+          <Route exact path="/Components/Team" component={Team}></Route>
+          <Route exact path="/Components/Price" component={Price}></Route>
           <Footer></Footer>
         </div>
       </Router>
