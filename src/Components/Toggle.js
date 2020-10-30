@@ -5,7 +5,7 @@ import YogaDoux from './YogaDoux.js'
 import YogaDyn from './YogaDyn.js'
 import Cours from './Lessons.js'
 
-const ShowAndHide = () => {
+const Toggle = () => {
 const yogas = ["Ensemble des cours","Yoga Doux", "Yoga Dynamique"];
 const [myYoga, setMyYoga] = useState ('')
 
@@ -32,4 +32,4 @@ return (
   </Col>
 </Row>
 )}
-export default ShowAndHide;
+export default Toggle;

@@ -6,7 +6,7 @@ import Portrait3 from '../Images/portrait3.jpg'
 import Portrait4 from '../Images/portrait4.jpg'
 import Portrait5 from '../Images/portrait5.jpg'
 
-const Equipe = () => (
+const Team = () => (
 
 <div>
 <p className="title2 text-center">Equipe</p>
@@ -60,4 +60,4 @@ const Equipe = () => (
 </div>
 )
 
-export default Equipe;
+export default Team;

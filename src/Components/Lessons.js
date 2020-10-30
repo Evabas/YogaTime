@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Card, CardDeck, Button} from 'react-bootstrap'; 
+import { Container, Col, Card, CardDeck} from 'react-bootstrap'; 
 import hatha from '../Images/hatha.jpg'
 import ashtanga from '../Images/ashtanga.png'
 import vinyasa from '../Images/vinyasa.png'
@@ -7,7 +7,7 @@ import bikram from '../Images/bikram.png'
 import kundalini from '../Images/kundalini.png'
 import iyengar from '../Images/iyengar.png'
 
-const Cours = () => (
+const Lessons = () => (
   <p>
     <Container className="vignettes" fluid >
    
@@ -92,4 +92,4 @@ const Cours = () => (
   </p>
 )
 
-export default Cours;
+export default Lessons;
